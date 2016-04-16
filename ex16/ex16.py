@@ -22,7 +22,7 @@ raw_input("?")
 
 print "Opening the file..."
 target = open(filename, 'w')
-# 여기서 w의 역할은 파이참에서 열어서 사용을 함으로써 다른곳에서 수정을 방지할수 있다.
+# 여기서 w의 역할은 write 즉 내용을 쓰겟다는 의미
 print "Truncating the file.  Goodbye!"
 target.truncate()
 # truncate는 열려있는 파일의 내용을 다 삭제

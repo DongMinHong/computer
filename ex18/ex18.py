@@ -1,11 +1,18 @@
+#-*-coding:utf-8
+
+#-*-coding:cp949
+
 # this one is like your scripts with argv
-#def ´Â ÇÔ¼ö¸¦ ³ªÅ¸³¿
-#µé¿©¾²±â·Î ÇÔ¼öÀÇ ½ÃÀÛ°ú ³¡À» ³ªÅ¸³¾¼öÀÖ´Ù.
+#def ëŠ” í•¨ìˆ˜ë¥¼ ë‚˜íƒ€ëƒ„
+#ë“¤ì—¬ì“°ê¸°ë¡œ í•¨ìˆ˜ì˜ ì‹œì‘ê³¼ ëì„ ë‚˜íƒ€ë‚¼ìˆ˜ìˆë‹¤.
 def print_two(*args):
     arg1, arg2 = args
     print "arg1: %r, arg2: %r" % (arg1, arg2)
-#step into´Â ÇÔ¼ö ¾ÈÀ¸·Î µé¾î°¡ ¼¼¼¼È÷ÇÏ³ªÇÏ³ª ´Ù ½ÇÇàÇÑ´Ù
-#step over´Â ÇÔ¼ö¸¦ °Ç³Ê ¶è´Ù
+#*ë¡œì˜ ì‹œì‘ì€
+# í•¨ìˆ˜ print_twoë¥¼ ë§Œë“¤ ë•Œì—ëŠ” ê·¸ ë§¤ê°œë³€ìˆ˜ì˜ ê°¯ìˆ˜ë¥¼ í™•ì •í•˜ì§€ ì•ŠëŠ”ë‹¤ëŠ” ëœ»ì…ë‹ˆë‹¤.  ì•„ë˜ 19í–‰ì—ì„œ í•¨ìˆ˜ë¥¼ í˜¸ì¶œí•  ë•Œ í™•ì •ë˜ëŠ” ê²ƒì…ë‹ˆë‹¤.
+
+#step intoëŠ” í•¨ìˆ˜ ì•ˆìœ¼ë¡œ ë“¤ì–´ê°€ ì„¸ì„¸íˆí•˜ë‚˜í•˜ë‚˜ ë‹¤ ì‹¤í–‰í•œë‹¤
+#step overëŠ” í•¨ìˆ˜ë¥¼ ê±´ë„ˆ ëˆë‹¤
 # ok, that *args is actually pointless, we can just do this
 def print_two_again(arg1, arg2):
     print "arg1: %r, arg2: %r" % (arg1, arg2)
@@ -24,4 +31,4 @@ print_two_again("Zed","Shaw")
 print_one("First!")
 print_none()
 
-#ÁúÀÇÀÀ´äÇØº¸±â
+#ì§ˆì˜ì‘ë‹µí•´ë³´ê¸°

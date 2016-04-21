@@ -16,13 +16,12 @@ script, from_file, to_file = argv
 
 print "Copying from %s to %s" % (from_file, to_file)
 
-#text,txt가 from_file에 해당 new_file.txt가 to_file에 해당
-
+#text,txt가 from_file에 해당 new_file.txt가 to_file에 해당_
 # we could do these two on one line, how?
 in_file = open(from_file) #form_file 을 열고 그걸 임의의 변수 in_file로 지정해주었다.
 indata = in_file.read() #in_file을 읽는것을 변수 indata에 지정하였다.
 
-x = "don'tt"
+x = "don't"
 print"don't is %d bytes long" % len(x)
 
 print "The input file is %d bytes long" % len(indata)

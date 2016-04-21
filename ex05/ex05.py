@@ -1,4 +1,8 @@
+#-*-coding:utf-8
+
 #-*-coding:cp949
+
+print 5.000 % 3.001
 my_name = 'Zed A. Shaw'
 my_age = 35 # not a lie
 my_height = 74 # inches
@@ -6,9 +10,11 @@ my_weight = 180 # lbs
 my_eyes = 'Blue'
 my_teeth = 'White'
 my_hair = 'Brown'
-#º¯¼ö °ªÀ» ÁöÁ¤ÇÒ¶§ ¼ıÀÚ´Â ¹Ù·Î ÇØÁàµµ µÇÁö¸¸ ¹®ÀÚ´Â '' »çÀÌ¿¡ ³Ö¾îÁà¾ßÇÑ´Ù.
-# %s=¹®ÀÚ¿­ %d=Á¤¼ö, ¼ıÀÚ¿­  %c=¹®ÀÚ 1°³ %g=½Ç¼ö
+#ë³€ìˆ˜ ê°’ì„ ì§€ì •í• ë•Œ ìˆ«ìëŠ” ë°”ë¡œ í•´ì¤˜ë„ ë˜ì§€ë§Œ ë¬¸ìëŠ” '' ì‚¬ì´ì— ë„£ì–´ì¤˜ì•¼í•œë‹¤.
+# %s(string)=ë¬¸ìì—´(ë°ì´í„°ë¥¼ ë¬¸ìì—´ë¡œ ë°”ê¹Œì£¼ëŠ” ë³€ìˆ˜) %d=ì •ìˆ˜, %f(float)=ìˆ«ìì—´(ìˆ«ìê°€ ì‹¤ìˆ˜ë¡œ ë‚˜ì˜¤ê²Œ í•˜ëŠ” ë³€ìˆ˜)
+# %c=ë¬¸ì 1ê°œ %g=ì‹¤ìˆ˜ #int=ì •ìˆ˜(ìˆ«ìê°€ ì •ìˆ˜ë¡œ ë‚˜ì˜¤ê²Œ í•´ì£¼ëŠ” ë³€ìˆ˜)
 print "Let's talk about %s." % my_name
+print "He's %s inches tall." % my_height # ë³´ë‹¤ì‹œí”¼ s ëŠ” ë°ì´í„° ì¦‰ 74 ë¥¼ ë¬¸ìì—´ë¡œ ë°”ê¿”ì£¼ë‹ˆê¹Œ së¡œ ì‚¬ìš©í• ìˆ˜ ìˆë‹¤
 print "He's %d inches tall." % my_height
 print "He's %r pounds heavy." % my_weight
 print "Actually that's not too heavy."
@@ -20,4 +26,4 @@ print "If I add %d, %d, and %d I get %d." % (
     my_age, my_height, my_weight, my_age + my_height + my_weight)
 
 print "My favorite number is %d" % (my_age + my_height + my_weight)
-# À§Ã³·³ ¿©·¯°³ ´õÇÏ´Â ¼ö¸¦ ÇÑ¹ø¿¡ ³ªÅ¸³¾¶§´Â °ıÈ£¸¦ »ç¿ëÇÑ´Ù.
+# ìœ„ì²˜ëŸ¼ ì—¬ëŸ¬ê°œ ë”í•˜ëŠ” ìˆ˜ë¥¼ í•œë²ˆì— ë‚˜íƒ€ë‚¼ë•ŒëŠ” ê´„í˜¸ë¥¼ ì‚¬ìš©í•œë‹¤.

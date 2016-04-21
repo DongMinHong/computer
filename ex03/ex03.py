@@ -12,6 +12,8 @@ print "Now I will count the eggs:"
 print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
 
 print 1 / 4
+
+#위처럼 그냥 실수형으로 / 로 나눠주면 소숫점은 계산되지 않는다
 #연산을 할때 에는 "" 을 넣지않고 그냥 계산만 넣어준다
 
 print "Is it true that 3 + 2 < 5 - 7?"
@@ -19,7 +21,7 @@ print "Is it true that 3 + 2 < 5 - 7?"
 print 3 + 2 < 5 - 7
 print 3 + 2 > 5 - 7
 
-# < > 이거는 True False 를 나타낸다
+# print를 해서 숫자의 크기비교인 < >를 사용하게 되면 결과값은 True False 가 나온다.
 
 print "What is 3 + 2?", 3 + 2
 print "What is 5 - 7?", 5 - 7

@@ -6,10 +6,10 @@
 # 위의 코드는 backslash 와 code page 문제로 충돌이 있을때 해결해줌
 # Here's some new strange stuff, remember type it exactly.
 
-days = "Mon Tue Wed Thu Fri Sat Sun" #변수지정
+days = "Mon Tue Wed Thu Fri Sat Sun" #변수지정, #문자 변수지정할떄는 ""를 사용해야함
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
-#\n은 뛰어쓰는것을 말함
+#\n은 다음줄로 뛰어쓰는것을 말함
 
 print "Here are the days: ", days
 print "Here are the months: ", months
@@ -33,3 +33,6 @@ Even 4 lines if we want, or 5, or 6.
 # \n은 다음줄로 바꿔서 나타낼수 있다.
 # 허나 문장이 지저분해 보일수 있으므로  연속된 작은따옴표 3개(''') 또는 큰따옴표 3개(""") 이용 이 방법으로도 뛰어쓰기가
 # 가능하다
+print " Hi my name is dongmin \n i'm majoring in mechanical engineereing \n It is very hard \t but i'm verry happy"
+
+

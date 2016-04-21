@@ -19,14 +19,16 @@ def print_two_again(arg1, arg2):
 
 # this just takes one arg`ument
 def print_one(arg1):
-    print "arg1: %r" % arg1
+     print "arg1: %r" % arg1
 
 # this one takes no arguments
 def print_none():
-    print "I got nothin'."
+     print "I got nothin'."
 
-
+x="zed"
+y="you"
 print_two("Zed","Shaw")
+print_two(x , y) #이처럼 변수지정해서 함수를 실행시킬수도 있다. 마찬가지로 변수지정은 ""가 필요 없다.
 print_two_again("Zed","Shaw")
 print_one("First!")
 print_none()

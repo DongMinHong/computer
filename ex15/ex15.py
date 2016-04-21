@@ -7,7 +7,7 @@ script, filename = argv
 
 txt = open(filename)
 
-print "Here's your file %r:" % filename
+print "Here's your file %r:" % filename # %r로 해줘서 '' 나온것을 잊지 말자
 print txt.read()
 #read는 읽어들이는것
 

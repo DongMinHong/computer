@@ -45,3 +45,10 @@ And your favorite hobby is %s. Thank you!.
 good = "dog"
 print "I give you %r. " % good
 
+print"Who are you? %s."  % "likes"
+print"Who are you? %r."  % "동민"
+print"Who are you? %s."  % "ab"
+
+# %s %r에서 뒤에 ""로 한글을 바로 받을떄는 둘다 아뇌지만 %s 는 변수를 문자열로 바꾸는 기능이 있어서
+# 변수를 한글로지정하고나서 그 변수를 %값으로 쓰면 출력이 가능하다. 이는 위에 두 프린트 예에서 알수 있다.
+# 위의 두 프린트에서 볼수 있듯이 %r 은 한글 값을 못받는다. %s 는 문자열로 바꾸는 기능으로 받아줄수 있다.

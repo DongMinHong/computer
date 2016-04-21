@@ -28,5 +28,5 @@ print "Your third variable is:", third
 #ls 를 치면 ex13.py가 있구나 하고 암
 
 # 첫번째 방법: edit configuration 가서 script parameters 에 a b c 대입
-# 두번째 방법: 터미널에서 cd d:\F BCD\ex13 치고 엔터 누르고
+# 두번째 방법: 터미널에서 cd d:\FBCD\ex13 치고 엔터 누르고
 # python ex13.py a b c 치면 됨
